@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = "/divisao")
 public class DivisaoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+ 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		int x = Integer.parseInt(req.getParameter("x"));
